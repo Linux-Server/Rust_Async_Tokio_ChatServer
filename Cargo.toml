@@ -7,6 +7,7 @@ authors =["Linux-Server(sachin)"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+mini-redis = "0.4.1"
 tokio = { version = "1.35.1", features = ["rt", "macros", "rt-multi-thread", "time", "net"] }
 
 
