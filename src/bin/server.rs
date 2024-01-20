@@ -7,7 +7,7 @@ use tokio::time::{sleep, Duration};
 async fn main() {
     // let _x = sam().await;
     // we nee a TCP listener
-    let listener = TcpListener::bind("0.0.0.0:3000").await;
+    let listener = TcpListener::bind("0.0.0.0:6669").await;
     match listener {
         Ok(val) => {
             println!("Listening on 3000");
